@@ -1,71 +1,99 @@
-# Brazil-Deforestation-and-CO2-Emissions
-An in-depth analysis of the correlations between deforestation, CO2 emissions, and fire outbreaks in Brazil, utilizing datasets from Kaggle and the World Data Bank. This repository contains the data, Python analysis notebooks, and visualizations that explore the environmental impacts of these factors over time.
+# Project_1
 
-# Project 1
+Repo for project 1
 
-Repository for Project 1, focusing on the analysis of Brazil’s deforestation, CO2 emissions, and fire outbreaks to determine potential correlations.
+# Brazil’s CO2 Emissions and Deforestation
 
-# Team
-
-- [Cole Lillge](https://github.com/clillge)
-- [Robyn Leslie](https://github.com/Robyn2024)
-- [Michael Kravitz](https://github.com/Xthe23)
-
-## Brazil’s Deforestation, CO2 Emissions, and Fire Outbreaks
-
-The purpose of this project is to explore the relationships between deforestation, CO2 emissions, and fire outbreaks in Brazil. We have compiled data from various sources and conducted statistical analyses to answer our research questions. The conclusions drawn from this study will be based on the insights gained from the data.
-
-![Map of Fire Outbreaks](https://github.com/Xthe23/Brazil-Deforestation-and-CO2-Emissions/blob/main/Visualizations/map.png)
+This project’s goal is to determine whether or not CO2 emissions are in fact correlated to the amount of deforestation that has occurred in Brazil. Fire outbreaks are common and could influence the effects of deforestation and CO2 emissions which is why we decided to see if there is correlation between fire outbreaks, CO2 emissions, and deforestation.
 
 
-## Hypotheses
+# Dataset Link:
 
-- **Null Hypothesis:** Deforestation does not correlate with both CO2 emissions and the fire outbreaks.
-- **Alternative Hypothesis:** Deforestation correlates with one or both of the factors - CO2 emissions or the fire outbreaks.
+https://www.kaggle.com/datasets/mbogernetto/brazilian-amazon-rainforest-degradation
 
-## Dataset Link
+# Datasets used from Link:
+def_area_2004_2019.csv
 
-Data for this analysis was sourced from Kaggle:
-[Brazilian Amazon Rainforest Degradation](https://www.kaggle.com/datasets/mbogernetto/brazilian-amazon-rainforest-degradation)
+inpe_brazilian_amazon_fires_1999_2019.csv
 
-## Datasets Used
 
-- `def_area_2004_2019.csv`: Deforestation area data from 2004 to 2019.
-- `inpe_brazilian_amazon_fires_1999_2019.csv`: Fire incidents data from 1999 to 2019.
+# Analysis Questions:
 
-## World Data Bank Python Module
-
-Data was also correlated with the World Data Bank's data using the wbdata python module:
-[wbdata Python Module Documentation](https://wbdata.readthedocs.io/en/stable/)
-
-## Analysis Questions
-
-### 1. Relationship Between Deforestation and Fire Incidents in Brazil
+1. Relationship Between Deforestation and Fire Incidents in Brazil?
 
 Is there a correlation between the amount of fire outbreaks and deforestation?
 
-![Deforestation vs Fire Outbreaks](https://github.com/Xthe23/Brazil-Deforestation-and-CO2-Emissions/blob/main/Visualizations/deforest_outbreaks.png)
+2. Fire Incidents and CO2 Emissions in Brazil?
 
-### 2. Fire Incidents and CO2 Emissions in Brazil
+Is there a correlation between the amount of fire outbreaks in the forest and the Co2 Emissions as well?
 
-Is there a correlation between the amount of fire outbreaks in the forest and the CO2 Emissions as well?
+3. Area of Deforestation vs CO2 Emissions in Brazil
 
-![CO2 Emissions vs Fire Outbreaks](https://github.com/Xthe23/Brazil-Deforestation-and-CO2-Emissions/blob/main/Visualizations/emissions_outbreaks.png)
+What is the correlation between Deforestation and Co2 Emissions within Brazil?
 
-### 3. Area of Deforestation vs CO2 Emissions in Brazil
-
-What is the correlation between Deforestation and CO2 Emissions within Brazil?
-
-![CO2 Emissions vs Deforestation](https://github.com/Xthe23/Brazil-Deforestation-and-CO2-Emissions/blob/main/Visualizations/emissions_deforest.png)
-
-### 4. CO2 Emissions of Brazil Compared to Neighboring Countries
+4. Co2 emissions of Brazil compared to neighboring countries
 
 Is there a correlation between Brazil's CO2 emissions and Brazil’s neighboring countries CO2 emissions?
 
-![2004 CO2 Emissions Comparison](https://github.com/Xthe23/Brazil-Deforestation-and-CO2-Emissions/blob/main/Visualizations/2004_emissions_w_neighboring_countries.png)
 
-![2019 CO2 Emissions Comparison](https://github.com/Xthe23/Brazil-Deforestation-and-CO2-Emissions/blob/main/Visualizations/2019_emissions_w_neighboring_countries.png)
+# Hypotheses:
 
----
+Null:
 
-*This project is part of our ongoing efforts to understand and visualize the impact of human activities on the environment. We hope our findings will contribute to the discourse on sustainable practices and environmental conservation.*
+Deforestation does not correlate to the increase of CO2 emission levels in the atmosphere or an increase in the quantity of fire outbreaks in Brazil. 
+
+Alternative:
+
+Deforestation does correlate to the increase of CO2 emission levels in the atmosphere or an increase in the quantity of fire outbreaks in Brazil.
+
+
+# Visualizations
+
+Fire outbreaks within Brazil
+
+Deforestation in Brazil per State
+
+Deforestation vs # Fire Outbreaks per Year (2004-2019)
+
+C02 Emissions vs Deforestation by Year (2004-2019)
+
+C02 Emissions vs # Fire Outbreaks by Year (2004-2019)
+
+2004 CO2 emissions of Brazil comapred to neighboring countries
+
+2019 CO2 emissions of Brazil comapred to neighboring countries
+
+
+
+# Codes for def_area_2004_2019.csv headers
+
+Ano/Estados
+
+Year of occurrence
+
+AC
+Deforested area in Acre state (km²)
+
+AM
+Deforested area in Amazonas state (km²)
+
+AP
+Deforested area in Amapa state (km²)
+
+MA
+Deforested area in Maranhao state (km²)
+
+MT
+Deforested area in Mato Grosso state (km²)
+
+PA
+Deforested area in Para state (km²)
+
+RO
+Deforested area in Rondonia state (km²)
+
+RR
+Deforested area in Roraima state (km²)
+
+TO
+Deforested area in Tocantins state (km²)
